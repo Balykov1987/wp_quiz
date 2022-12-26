@@ -1,0 +1,32 @@
+.table-wrap{
+    margin-bottom: 40px;
+}
+
+.table-wrap .body-table {
+    overflow: hidden;
+    height: 0;
+}
+
+.wrap .table-wrap.body-table:first-child {
+    height: 100px;
+}
+
+.table-wrap.open .body-table {
+    height: auto;
+}
+
+table {
+    border: 1px solid #000;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.head-table {
+    height: 30px;
+    background: #bdbdbf;
+}
+.head-table__left {
+    padding: 6px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
